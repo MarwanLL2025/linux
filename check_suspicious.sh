@@ -27,7 +27,7 @@ echo "📡 Ports ouverts et services"
 echo "=============================="
 sudo lsof -i -P -n | grep LISTEN
 
-~#Transform this file for executable
+~# Transform this file to be executable 
 
 # Launch this on your cli : chmod +x check_suspicious.sh
 # Launch command : ./check_suspicious.sh
